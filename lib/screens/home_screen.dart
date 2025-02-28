@@ -59,6 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     title: Text(character.name),
                     subtitle: Text('Status: ${character.status}'),
+                    
                   )
                 );
               },
